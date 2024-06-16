@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>음악 앨범 소개</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .album {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+            transition: transform 0.3s;
+        }
+        .album:hover {
+            transform: scale(1.05);
+        }
+        .album img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 20px;
+            flex: 1 1 auto;
+        }
+        .album-content {
+            flex: 2 1 300px;
+            padding-left: 20px;
+        }
+        .album-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .album-description {
+            margin-bottom: 20px;
+        }
+        .album-link a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        @media (max-width: 768px) {
+            .album {
+                flex-direction: column;
+                align-items: center;
+            }
+            .album-content {
+                padding-left: 0;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>음악 앨범 소개</h1>
+
+        <div class="album">
+            <img src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.namu.wiki%2Fi%2FZMjl-kR7h1RiPWXwqpYA_AQLw5DW1ulplBLkq6f7M0QMvlxU1iWKXVrrdfTq1LKLAxIitEyJstPx1m5uXZ1Crw.webp&type=sc960_832" alt="앨범 표지 1">
+            <div class="album-content">
+                <h2 class="album-title">스트레이키즈 "가려줘"</h2>
+                <p class="album-description">따뜻하면서도 벅찬 감성이 느껴지는 노래로, 긴 밤 잠 못 들게 하는 밝은 달빛을 누군가 가려주길 바라는 마음을 "달이 이렇게 눈부시는 밤엔 누가 저 빛을 가려주길 외쳐 밤이 어느새 끝이 나는 낮엔 따스한 빛을 내리쬐는 빛을" 등의 노랫말에 실었습니다. 감성적인 어쿠스틱 선율로 시작해 후반부로 갈수록 격양되는 감정을 묵직한 일렉 기타 사운드로 표현했다.</p>
+                <p class="album-link"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4+%ED%82%A4%EC%A6%88+%EA%B0%80%EB%A0%A4%EC%A4%98&oquery=%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4+%ED%82%A4%EC%A6%88+%EA%B0%80%EB%A0%A4%EC%A4%98+%ED%91%9C%EC%A7%80&tqi=iEJ2wwqo1SossjARJ1hssssss0V-167489" target="_blank">자세히 보기</a></p>
+            </div>
+        </div>
+
+        <div class="album">
+            <img src="https://i.namu.wiki/i/jO5IYXQvi71vE-R80WjQWp_jBsx2vJeTkBFkDEM6Ra5tYeXpK_Uqx1HjWSTPtCJcZ-nIfQuG9QX-RJO6jw1YGMFsJLzzqf3LZpPzfP39XNBX_HKiwKq2VYAMWPYnAVD6xo-zzQlnGa8nkxH974U40A.webp" alt="앨범 표지 2">
+            <div class="album-content">
+                <h2 class="album-title">세븐틴 "청춘찬가"</h2>
+                <p class="album-description">경쾌한 리듬과 캐치한 멜로디가 이목을 끄는 J-록 스타일의 곡으로, 누구든 처음 맞는 청춘을 찬미하는 노래다. 청춘들을 위한 보컬팀의 선물 ‘청춘찬가’는 일상에서 작은 행복을 발견하고 아름다운 지금을 만끽하자는 메시지를 전달했다.</p>
+                <p class="album-link"><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%B2%AD%EC%B6%98%EC%B0%AC%EA%B0%80&oquery=%EC%84%B8%EB%B8%90%ED%8B%B4+17+is+right+here&tqi=iEJ3DsqVOswssQ4ylIGsssssslZ-035705" target="_blank">자세히 보기</a></p>
+            </div>
+        </div>
+
+        <div class="album">
+            <img src="https://i.namu.wiki/i/_MVEdUSAG0wsKNT35cb4h2zQs9zbKmcYCNMUIFFNfoeKYn-WIT69MOwosnRBXgIlCAmMxG0paovsnzODZuYDW3KhPL7-PhClGLM0A6p4y_3-GOuGqbD0mkZZuk3boTEA8QslbSNMVn5-8edkeXef9Q.webp" alt="앨범 표지 3">
+            <div class="album-content">
+                <h2 class="album-title">BOYNEXTDOOR "돌아버리겠다"</h2>
+                <p class="album-description">‘돌아버리겠다, but I like you' 처음 사랑에 빠진다면 어떤 마음이 들까? 착각이 아닌지 고민하고, 사소한 행동 하나하나에 신경이 쓰이고, 그러다 그 사람의 모든 게 좋아져서 어찌할 줄 모르게 되지 않을까? ‘돌아버리겠다'는 우연한 사랑에 빠진 후 꼬리를 무는 고민과 혼란스러운 감정, 터질 것처럼 요동치는 사랑의 마음을 친구에게 고민 상담하듯 털어놓는 곡이다. 돌아버릴 것 같지만, 네가 좋은걸이라는 감정을 표현했다.</p>
+                <p class="album-link"><a href="https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=0&acr=1&acq=%EB%8F%8C%EC%95%84%EB%B2%84%EB%A6%AC%EA%B2%A0%EB%8B%A4&qdt=0&ie=utf8&query=%EB%8F%8C%EC%95%84%EB%B2%84%EB%A6%AC%EA%B2%A0%EB%8B%A4" target="_blank">자세히 보기</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* 태그 선택자 */
+h1{
+    background-color: pink;
+}
+/* 클래스 선택자 */
+.ch1{
+    background-color:skyblue;
+}
+/* 아이디 선택자 */
+#ch2{
+    background-color: orange;
+}

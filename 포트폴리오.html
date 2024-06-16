@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.csst2css.css"></script>
+    <title>Yang Na Gyeong's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Yang Na Gyeong's Portfolio</h1>
+        <p>chat GPT로 시작하는 콘텐츠제작 프로젝트</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div style="display: flex; align-items: center;">
+            <!--you can add your photo here-->
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAzMTZfMjY0%2FMDAxNzEwNTg3NTYyOTkw.ZmLei_02dHqEAQlIp6A9918iIbcN6OdoGBgakW9Tt30g.qhUCQiGNd5qXXj1WP1-YsxZ7Lq9Lo-b5xZZk9DbY0WEg.JPEG%2FIMG_8250.jpg&type=sc960_832" alt="Your Photo" class="profile-photo">
+            <div style="flex: 1; margin-left: 20px;">
+                <p style="max-width: 100%;"> 안녕하세요! 저는 아이돌 영상 제작 분야에 큰 관심을 가진 창의적이고 열정적인 사람입니다. <br>학업적으로도 우수하며 사회성이 뛰어나, 다른 사람들과 협력하여 좋은 결과물을 만들어내는 것을 즐깁니다. <br>저는 여러 아이돌들을 좋아하지만 그 중에서 스트레이키즈의 필릭스를 특히 좋아하며 스트레이키즈 자체제작 예능 제작을 계획 중에 있습니다.<br> 또한 배려심과 봉사정신이 풍부하며, 다른 사람들의 의견을 존중하고 함께 성장하는 것을 중요시합니다. <br><br>또한, PPT 제작과 발표에 있어서도 뛰어나며, Adobe Premiere Pro, DaVinci Resolve, After Effects 등 영상 편집 프로그램을 능숙하게 다룰 수 있습니다.</p>
+    </div>
+    
+    </section>
+    <section id="projects">
+        <h2>YANG NA GYEONG Projects</h2>
+            <h3>Project 1 <br> 영화소개</h3>
+        <div class="project">
+            <a href="html/project1.html">
+                <img src="contents/gif/Project 1 영화소개 gif.gif" alt="Project 1">     
+            </a>
+            <p>감명깊게 본 영화 TOP3</p>
+        </div>
+            <h3>Project 2 <br> 로맨스 소설 소개</h3>
+        <div class="project">
+            <a href="html/project2.html">
+                <img src="contents/gif/Project 2 로맨스 소설 소개 gif.gif" alt="Project 2">
+            </a>
+            <p>재미있게 본 로맨스 소설 TOP3</p>
+        </div>
+            <h3>Project 3 <br> 음원 플레이어</h3>
+        <div class="project">
+            <a href="html/project3.html">
+                <img src="contents/gif/Project 3 음원 플레이어 gif.gif" alt="Project 3">
+            </a>
+            <p>음악추천 TOP3</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Yang Na Gyeong]. All rights reserved.</p>
+    </footer>
+
+    <script>
+        $(document).ready(function(){
+            $('.project img').on('click', function(){
+                $(this).toggleClass('selected');
+            });
+        });
+    </script>
+</body>
+</html>
